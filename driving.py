@@ -8,5 +8,8 @@ if country == '台灣' :
 		print ('可以開車')
 	else :
 		print('不可以開車')
-else :
-	print ('不是台灣')
+elif country == '美國' :
+	if age >= 16:
+		print ('可以開車')
+	else :
+		print('不可以開車')
